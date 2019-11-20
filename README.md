@@ -69,3 +69,8 @@ API调用的基本流程如下图所示，具体接口说明参见API接口手�
 
 `设置回调（SetCallback）-> 初始化（init）->收到初始化成功回调通知（YOUME_EVENT_INIT_OK）`->`加入语音单频道（joinChannelSingleMode）->收到加入频道成功回调通知（YOUME _EVENT_JOIN_OK）`->`打开麦克风（SetMicrophoneMute（false））-> 收到麦克风已打开回调通知(YOUME_EVENT_LOCAL_MIC_ON)->打开扬声器（SetSpeakerMute（false））-> 收到扬声器已打开回调通知（YOUME_EVENT_LOCAL_SPEAKER_ON）`->`设置音量（SetVolume（70）（该音量建议70））->(到了前面一步已经可以和当前进入同一频道的人进行实时通话了)`->`使用其他接口`
 ->`结束`
+
+### 备注：
+[详细接口介绍可查看“unity-API手册.md”文档](https://github.com/youmesdk/YoumeTalkSDK_Unity/blob/master/unity-API%E6%89%8B%E5%86%8C.md)
+
+实际Demo可点击此处下载->[Talk SDK for Unity3D](https://github.com/youmesdk/YoumeTalkDemo_Unity)
